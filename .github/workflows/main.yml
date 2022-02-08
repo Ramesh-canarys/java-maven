@@ -49,7 +49,6 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.token }}
     
   deploy:
-  
    runs-on: ubuntu-latest
    needs: build  
    steps:
